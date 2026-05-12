@@ -1,0 +1,13 @@
+public class Practical {
+  public static void main(String[] args) {
+    try {
+      System.out.println(2/0);
+    }
+    catch(ArithmeticException e){
+      System.out.println("Cannot divide by zero.");
+    }
+    finally{
+      System.out.println("this block will always run.");
+    }
+  }
+}
