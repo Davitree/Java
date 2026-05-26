@@ -9,6 +9,9 @@ public class Practical2 {
   }
   public static void main(String[] args) {
     Practical2 p=new Practical2();
-    Practical2 pp=new Practical2(5,9.34f);
+    Practical2 pp =new Practical2(2,3.3f);
+    
   }
+  
 }
+
