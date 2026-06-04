@@ -1,4 +1,4 @@
-package Practical_3;
+ package Practical_3;
 //Wap to demonstrate single inheritance 
 class Apple{
   void greet(){

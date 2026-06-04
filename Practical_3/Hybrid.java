@@ -1,6 +1,6 @@
 package Practical_3;
 
-class Ant{
+class Ant extends Elephant{
   void ant(){
     System.out.println("ant is an insect");
   }
@@ -10,7 +10,7 @@ class Bat extends Ant{
     System.out.println("bat is a mammal");
   }
 }
-class Cat extends Bat {
+class Cat extends Bat  {
 
 }
 public class Hybrid {
@@ -19,5 +19,7 @@ public class Hybrid {
     b.ant();
     Cat c = new Cat();
     c.bat();
+    Ant a = new Ant();
+    a.elephant();
   }
 }
