@@ -8,6 +8,7 @@ public class Swing{
       f.setLayout(null);
       btn.setBounds(100,100,100,100);
       f.setVisible(true);
+      btn.setText("hgfff");
       f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }
